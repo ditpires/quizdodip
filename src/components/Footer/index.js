@@ -29,16 +29,16 @@ const FooterWrapper = styled.footer`
 export default function Footer(props) {
     return (
         <FooterWrapper>
-            <a href="#">
-                <img src="#"></img>
+            <a href="https://www.alura.com.br">
+                <img src="https://www.alura.com.br/assets/img/imersoes/react-2/alura-light.1609262503.svg"></img>
             </a>
             <p>
                 Orgulhosamente criado durante
                 {' '}
                 a
                 {' '}
-                <a href="https://www.alura.com.br/">
-                    <span>Imersão React:Next.js da Alura clica aeweewewwwww</span>
+                <a href="https://www.alura.com.br/imersao-react-2">
+                    <span>Imersão React:Next.js da Alura</span>
                 </a>
             </p>
         </FooterWrapper>
