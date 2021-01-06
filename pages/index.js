@@ -3,6 +3,7 @@ import db from '../db.json';
 import Widget from '../src/components/Widget';
 import Footer from '../src/components/Footer';
 import Head from 'next/head';
+import { useRouter } from 'next/router';
 
 const BackgroundImage = styled.div`
   background-image: url(${db.bg});
@@ -24,6 +25,9 @@ export const QuizContainer = styled.div`
 
 
 export default function Home() {
+  const router = useRouter();
+  const [name, setName] = React.useState('');
+  
   return (
     <BackgroundImage>
       <Head>
@@ -35,7 +39,20 @@ export default function Home() {
           <h1>Journey</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>blabalbal</p>
+            <form onSubmit={function (infosDoEvento) {
+              infosDoEvento.preventDefault();
+              router.push(`/quiz?name=${name}`);
+            }}>
+              <input  
+                onChange={function (infosDoEvento) {
+                 setName(infosDoEvento.target.value);
+                }}
+                placeholder="Preencha seu nome aqui"
+              />
+              <button type="submit" disabled={name.length === 0}>
+                Jogar {name}
+              </button>
+            </form>
           </Widget.Content>
         </Widget>
         <Widget>
