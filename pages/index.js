@@ -34,7 +34,16 @@ export default function Home() {
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>Quiz do Di</title>
+          <title>Journey, The Quiz</title>
+          <meta name="title" content="Journey, The Quiz" />
+          <meta name="description" content="Quiz feito durante a imersão React Next.js da Alura"/>
+
+          <meta property="og:type" content="website"/>
+          <meta property="og:url" content="https://quizdodip.vercel.app/"/>
+          <meta property="og:title" content="Journey, The Quiz"/>
+          <meta property="og:description" content="Quiz feito durante a imersão React Next.js da Alura"/>
+          <meta property="og:image" content="https://images.hdqwalls.com/wallpapers/journey-game-5k-6h.jpg"/>
+
       </Head>
       <QuizContainer>
         <QuizLogo />
