@@ -1,12 +1,12 @@
 {
-    "bg": "https://images.hdqwalls.com/wallpapers/journey-game-5k-6h.jpg",
-    "title": "Journey, The Quiz",
-    "description": "Te desafio a conhecer mais de um dos melhores jogos indie",
+    "bg": "https://i5.walmartimages.com/asr/e16a6055-efab-47cf-8683-3e11b91c7d2c_1.d1d1c68a7cb1ecddfac7a7c325fe7d1d.jpeg",
+    "title": "Iiiiit's Adventure Time",
+    "description": "A melhor animação feita até hoje. ponto.",
     "questions": [
         {
             "image": "https://placehold.it/400x400",
-            "title": "Qual o ano de lançamento de Journey?",
-            "description": "Será que você sabe em que ano Journey foi lançado?",
+            "title": "Qual o ano foi lançado Adventure Time?",
+            "description": "Será que você sabe em que ano Adventure Time foi lançado?",
             "answer": 2,
             "alternatives": [
                 "2009",
@@ -33,10 +33,10 @@
     ],
     "theme": {
         "colors": {
-        "primary": "#601A1A",
-        "secondary": "#A15D40",
-        "mainBg": "#352118",
-        "contrastText": "#FDF4D5",
+        "primary": "#1982C4",
+        "secondary": "#91A6FF",
+        "mainBg": "#FEFEFE",
+        "contrastText": "#000000",
         "wrong": "#F7A1C4",
         "success": "#3A4F41"
     },
